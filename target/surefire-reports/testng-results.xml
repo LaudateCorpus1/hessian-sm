@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="92" started-at="2016-03-09T13:51:45Z" finished-at="2016-03-09T13:51:45Z">
+    <groups>
+      <group name="test">
+        <method signature="test.TestList.testList1()" name="testList1" class="test.TestList"/>
+        <method signature="test.TestList.testList2()" name="testList2" class="test.TestList"/>
+      </group>
+    </groups>
+    <test name="Command line test" duration-ms="92" started-at="2016-03-09T13:51:45Z" finished-at="2016-03-09T13:51:45Z">
+      <class name="test.TestList">
+        <test-method status="PASS" signature="init()" name="init" is-config="true" duration-ms="11" started-at="2016-03-09T13:51:45Z" finished-at="2016-03-09T13:51:45Z">
+        </test-method>
+        <test-method status="PASS" signature="testList1()" name="testList1" duration-ms="65" started-at="2016-03-09T13:51:45Z" finished-at="2016-03-09T13:51:45Z">
+        </test-method>
+        <test-method status="PASS" signature="testList2()" name="testList2" duration-ms="6" started-at="2016-03-09T13:51:45Z" finished-at="2016-03-09T13:51:45Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
